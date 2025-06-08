@@ -1,17 +1,17 @@
 import React from "react";
-import html from "../../public/html.png";
-import css from "../../public/css.jpg";
-import java from "../../public/java.png";
-import javascript from "../../public/javascript.png";
-import oracle from "../../public/oracle.png";
-import spring from "../../public/spring.png";
-import springBoot from "../../public/springBoot.jpg";
+import junit from "/junit.png";
+import css from "/css.jpg";
+import java from "/java.png";
+import javascript from "/javascript.png";
+import oracle from "/oracle.png";
+import spring from "/spring.png";
+import springBoot from "/springBoot.jpg";
 function Experiance() {
   const cardItem = [
     {
       id: 1,
-      logo: html,
-      name: "MongoDB",
+      logo: springBoot,
+      name: "Spring Boot",
     },
     {
       id: 2,
@@ -36,13 +36,14 @@ function Experiance() {
     {
       id: 6,
       logo: spring,
-      name: "Spring",
+      name: "SpringMVC",
     },
-    {
+     {
       id: 7,
-      logo: springBoot,
-      name: "Spring Boot",
+      logo: junit,
+      name: "Junit5",
     },
+    
   ];
   return (
     <div
